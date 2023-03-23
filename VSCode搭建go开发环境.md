@@ -62,3 +62,14 @@ https://vscode.cdn.azure.cn/
 ## 6、安装go开发工具包
  · Windows平台按下快捷键：【 Ctrl+Shift+P 】，Mac平台按【 Command+Shift+P 】
  · 输入框中输入Go:Install/Update Tools并选中，然后全选弹出的列表，确认即可安装
+ 
+## 7、升级go
+Linux系统
+ - 7.1先移除旧版本再安装
+   > $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.2.linux-amd64.tar.gz
+   7.2添加/usr/local/go/bin到环境变量(如.bash_profile)
+   > export PATH=$PATH:/usr/local/go/bin
+
+Mac系统
+下载新版本安装包，安装时会自动检测旧版本，覆盖安装即可
+ 
