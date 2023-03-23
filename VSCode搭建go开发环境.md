@@ -67,7 +67,7 @@ https://vscode.cdn.azure.cn/
 Linux系统
  - 7.1先移除旧版本再安装
    > $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.2.linux-amd64.tar.gz
-   7.2添加/usr/local/go/bin到环境变量(如.bash_profile)
+ - 7.2添加/usr/local/go/bin到环境变量(如.bash_profile)
    > export PATH=$PATH:/usr/local/go/bin
 
 Mac系统
