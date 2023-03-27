@@ -5,9 +5,9 @@ vim ~/.zshrc
 alias ll="ls -l"
 
 ## 终端颜色
-vim ～/.zshrc
-export CLICOLOR=1
-export LSCOLORS=ExGxFxdaCxDaDahbadeche
+ > vim ～/.zshrc
+ > export CLICOLOR=1
+ > export LSCOLORS=ExGxFxdaCxDaDahbadeche
 - LSCOLORS=后，共22个字母，每个字母对应一种颜色。每组2个字母，第一个字母为前景色，第二个字母为背景色；共11组，每一组对应一种文件类型。
 11组文件类型的意思如下：
  > 1. directory 
