@@ -1,8 +1,8 @@
 # Mac常用的环境变量配置
 
 ## ll
-vim ~/.zshrc
-alias ll="ls -l"
+ > vim ~/.zshrc  
+ > alias ll="ls -l"
 
 ## 终端颜色
  > vim ～/.zshrc  
