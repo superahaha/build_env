@@ -26,7 +26,6 @@
 
 ### 【七牛云】
 - 在Go 1.13 及以上（推荐），打开终端并执行：
- > `go env -w GO111MODULE=on`
  > `go env -w GOPROXY=https://goproxy.cn,direct`
 
 - 在macOS或Linux打开终端并执行：
@@ -44,8 +43,6 @@
  > `$ go env`
   //以JSON格式输出
  > `$ go env -json`
-- 打开代理
- > `$ go env -w GOPROXY=https://goproxy.cn,direct` # 七牛云
 
 
 ## 4、到官网下载VSCode安装包，安装
