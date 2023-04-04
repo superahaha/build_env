@@ -12,15 +12,17 @@
 
 ## 3、添加代理，提升插件下载/更新速度
 ### 【goproxy.io】
-- Bash (Linux or macOS)
+- Bash (Linux or macOS)  
   配置 GOPROXY 环境变量
   > `export GOPROXY=https://proxy.golang.com.cn,direct`
+
   还可以设置不走 proxy 的私有仓库或组，多个用逗号相隔（可选）
   > `export GOPRIVATE=git.mycompany.com,github.com/my/private`
 
-- PowerShell (Windows)
+- PowerShell (Windows)  
   配置 GOPROXY 环境变量
   > `$env:GOPROXY = "https://proxy.golang.com.cn,direct"`
+
   还可以设置不走 proxy 的私有仓库或组，多个用逗号相隔（可选）
   > `$env:GOPRIVATE = "git.mycompany.com,github.com/my/private"`
 
@@ -40,9 +42,8 @@
  > `$ go env -u GOPROXY`
 
 - 查看GO的配置
- > `$ go env`  
-  //以JSON格式输出  
- > `$ go env -json`
+ > `$ go env`    
+ > `$ go env -json`  # 以JSON格式输出
 
 
 ## 4、到官网下载VSCode安装包，安装
