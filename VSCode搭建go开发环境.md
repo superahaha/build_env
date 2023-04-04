@@ -29,11 +29,11 @@
  > `go env -w GOPROXY=https://goproxy.cn,direct`
 
 - 在macOS或Linux打开终端并执行：
- > `export GO111MODULE=on`
+ > `export GO111MODULE=on`  
  > `export GOPROXY=https://goproxy.cn`
 
 - 在Windows打开 PowerShell 并执行：
- > `$env:GO111MODULE = "on"`
+ > `$env:GO111MODULE = "on"`  
  > `$env:GOPROXY = "https://goproxy.cn"`
 
 - 取消代理
@@ -46,7 +46,7 @@
 
 
 ## 4、到官网下载VSCode安装包，安装
-vscode国内镜像域名
+vscode国内镜像域名  
 https://vscode.cdn.azure.cn/
 
 
